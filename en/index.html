@@ -4,12 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- the metadata below is optional -->
-  <meta property='og:title' content='Li Rui | Portfolio'/> <!-- title of website -->
-  <meta property='og:image' content='../img/N_OG.png'/> <!-- preview image that appears when you share the link -->
-  <meta property='og:description' content='{description of the website for shared link and search engines}'/> <!-- description of the website, can appear in some SW when sharing the link -->
-  <meta name="description" content='{description of the website for shared link and search engines}'> <!-- same as above -->
-  <meta property='og:url' content='{link to the website}'/> <!-- the actual link -->
+  <meta property='og:title' content='Li Rui | Portfolio'/>
+  <meta property='og:image' content='../img/N_OG.png'/>
+  <meta property='og:description' content='{description of the website for shared link and search engines}'/>
+  <meta name="description" content='{description of the website for shared link and search engines}'>
+  <meta property='og:url' content='{link to the website}'/>
   
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -18,8 +17,7 @@
   <link rel="stylesheet" href="../simpleLightbox.min.css">
   <link rel="stylesheet" href="../style.css">
 
-  <title>Li Rui | Portfolio</title> <!-- title of the website (homepage) -->
-  <!-- (optional) below there's the website icon that appears near the title in the tab (at different sizes). You just need one, the other can be generated-->
+  <title>Li Rui | Portfolio</title>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -28,16 +26,14 @@
   <meta name="msapplication-TileColor" content="#603cba">
   <meta name="theme-color" content="#ffffff">
 </head>
-<!-- Below is what will actually be visible in the homepage -->
 <body>
   <div class="nav-bar">
     <nav class="navbar navbar-expand-lg navbar-light bg-white pt-2 fixed-top">
-  <a class="navbar-brand ml-md-5" href="/en/" id="homeLink"><img id="brandImg" width="auto" src="https://via.placeholder.com/730x146"/></a> <!-- top navbar logo image -->
+  <a class="navbar-brand ml-md-5" href="/en/" id="homeLink"><img id="brandImg" width="auto" src="https://via.placeholder.com/730x146"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
   <i class="fa fa-bars"></i>
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
-    <!-- list of pages/links in the main navigation -->
   <ul class="navbar-nav ml-auto mr-md-5 text-center pt-4 pt-sm-0">
     <li class="nav-item pt-2 pt-sm-0 pl-3">
       <a class="nav-link mr-4" href="/" id="langLink">中文</a>
@@ -57,7 +53,7 @@
   </div>
 
 <main>
-  <div class="row landing"> <!-- landing page container -->
+  <div class="row landing">
     <div class="col-md-8 main-title">
       <h1 class="text-left">Hi, I'm {name}</h1>
       <p class="text-left">an <span id="underlined1">{description1}</span>, a <span id="underlined2">{description2}</span><br/> and a <span id="underlined3">{description3}</span></p>
@@ -74,22 +70,22 @@
         <br/><span class="sub-tip">{description subtitle}</span>
       </p>
     </div>
-  </div> <!-- end of landing page container -->
+  </div>
   </div>
   <div class="container main">
     <div class="anchor" id="projects"></div>
     <div class="row pr-wrap">
-      <div class="col-md-6 pr-thumb"> <!-- Project container. This project has no id assigned and will be pushed back before all the project with a pr-main id -->
-        <img src="https://via.placeholder.com/600x450" width="600" height="450" alt="" class="img-fluid">
-          <a href="/en/project" class="container-fluid pr-hover">
+      <div class="col-md-6 pr-thumb" id="pr-main1">
+        <img src="../live-cover-res/LiveCover_Cover.png" width="600" height="450" alt="" class="img-fluid">
+          <a href="/en/live-cover" class="container-fluid pr-hover">
           <div class="pr-hover-title d-none d-md-block">
-            <p>{Project title}</p>
-            <st>{Project type - year}</st>
+            <p>Shopee Live Cover Image Optimization</p>
+            <st>May 2022</st>
           </div>
         </a>
         <p class="text-center pr-sub">{Project title}</p>
-      </div> <!-- End of project container -->
-      <div class="col-md-6 pr-thumb" id="pr-main3"> <!-- Project container. The id pr-main3 defines the project that will take the third position in the list. You can assign this id to other projects whenever you want to change the order -->
+      </div>
+      <div class="col-md-6 pr-thumb" id="pr-main2">
         <img src="https://via.placeholder.com/600x450" width="600" height="450" alt="" class="img-fluid">
         <a href="/en/project" class="container-fluid pr-hover">
           <div class="pr-hover-title d-none d-md-block">
@@ -98,8 +94,8 @@
           </div>
         </a>
       <p class="text-center pr-sub">{Project title}</p>
-      </div> <!-- End of project container -->
-      <div class="col-md-6 pr-thumb" id="pr-main1"> <!-- Project container. The id pr-main1 defines the project that will take the first position in the list. You can assign this id to other projects whenever you want to change the order -->
+      </div> 
+      <div class="col-md-6 pr-thumb" id="pr-main3">
         <img src="https://via.placeholder.com/600x450" width="600" height="450" alt="" class="img-fluid">
         <a href="/en/project" class="container-fluid pr-hover">
           <div class="pr-hover-title d-none d-md-block">
@@ -108,8 +104,8 @@
           </div> 
         </a>
         <p class="text-center pr-sub">{Project title}</p> 
-      </div> <!-- End of project container -->
-      <div class="col-md-6 pr-thumb" id="pr-main4"> <!-- Project container. The id pr-main4 defines the project that will take the fourth position in the list. You can assign this id to other projects whenever you want to change the order -->
+      </div>
+      <div class="col-md-6 pr-thumb" id="pr-main4">
         <img src="https://via.placeholder.com/600x450" width="600" height="450" alt="" class="img-fluid">
         <a href="/en/project" class="container-fluid pr-hover">
           <div class="pr-hover-title d-none d-md-block">
@@ -118,8 +114,8 @@
           </div>
         </a>
         <p class="text-center pr-sub">{Project title}</p>
-      </div> <!-- End of project container -->
-      <div class="col-md-6 pr-thumb" id="pr-main5"> <!-- Project container. The id pr-main5 defines the project that will take the fifth position in the list. You can assign this id to other projects whenever you want to change the order -->
+      </div>
+      <div class="col-md-6 pr-thumb" id="pr-main5">
         <img src="https://via.placeholder.com/600x450" width="600" height="450" alt="" class="img-fluid">
         <a href="/en/project" class="container-fluid pr-hover">
           <div class="pr-hover-title d-none d-md-block">
@@ -128,8 +124,8 @@
           </div>
         </a>
         <p class="text-center pr-sub">{Project title}</p>
-      </div> <!-- End of project container -->
-      <div class="col-md-6 pr-thumb" id="pr-main2"> <!-- Project container. The id pr-main2 defines the project that will take the second position in the list. You can assign this id to other projects whenever you want to change the order -->
+      </div>
+      <div class="col-md-6 pr-thumb">
         <img src="https://via.placeholder.com/600x450" width="600" height="450" alt="" class="img-fluid">
         <a href="/en/project" class="container-fluid pr-hover">
           <div class="pr-hover-title d-none d-md-block">
@@ -138,7 +134,7 @@
           </div>
         </a>
         <p class="text-center pr-sub">{Project title}</p>
-      </div> <!-- End of project container -->
+      </div>
       <div class="col-md-6 pr-thumb pr-more justify-content-center align-self-center text-center">
         <div class="more d-inline-block align-self-center">
           <svg width="50px" height="50px" class="mr-2" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
