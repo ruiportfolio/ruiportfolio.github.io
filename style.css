@@ -41,14 +41,14 @@ main{
 
 .navbar-brand img{
   height:50px;
-  clip-path:inset(0% 80% 0% 0%);
-  -webkit-clip-path:inset(0% 80% 0% 0%);
+  /* clip-path:inset(0% 80% 0% 0%);
+  -webkit-clip-path:inset(0% 80% 0% 0%); */
   transition: 300ms ease-out;
 }
 .navbar-brand:hover img{
   height:50px;
-  clip-path:inset(0% 0% 0% 0%);
-  -webkit-clip-path:inset(0% 0% 0% 0%);
+  /* clip-path:inset(0% 0% 0% 0%);
+  -webkit-clip-path:inset(0% 0% 0% 0%); */
   transition: 300ms ease-out;
 }
 
