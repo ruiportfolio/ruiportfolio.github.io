@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
 h1{
-  font-family:'Merriweather', Times, serif;
-  font-weight:900;
-  font-style: italic;
+  font-family:'Comfortaa', sans-serif;
+  font-weight: 700;
 }
 
 html{
@@ -135,15 +133,14 @@ main{
   margin:auto 0 auto 5rem;
   padding-bottom:120px;
   transition: 300ms ease-out;
-  font-family:'Merriweather', Times, serif;
+  font-family:'Roboto', sans-serif;
 }
 
 .landing .main-title h1{
   opacity:0;
   max-width:600px;
   font-size:64pt;
-  font-weight: 800;
-  font-style:italic;
+  font-weight: 700;
   animation: revealTr 500ms 300ms ease-out forwards;
 }
 
@@ -547,6 +544,10 @@ main{
 
 /*PROJECT PAGE*/
 
+.cover-img{
+  margin-top:76px;
+}
+
 .btn{
   background-color:#111;
   border:none;
@@ -598,6 +599,7 @@ main{
 
 .quick-nav .row{
   margin-top:20px !important;
+  max-width:900px !important;
 }
 
 .quick-nav h5{
