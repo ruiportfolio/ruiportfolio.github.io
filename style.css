@@ -417,6 +417,10 @@ main{
   color:#111;
 }
 
+#projects{
+  transform:translateY(-100px);
+}
+
 #pr-main1{
   order:-4;
   display:inline-grid;
@@ -606,9 +610,12 @@ main{
 
 .proj-title{
   margin:180px auto;
+  margin-bottom:30px;
 }
 
 .quick-nav{
+  max-width: 750px;
+  margin: 0 auto;
   margin-top:80px;
 }
 
@@ -618,7 +625,8 @@ main{
 }
 
 .quick-nav h5{
-  font-size:14pt;
+  font-size:1rem;
+  color: #999;
 }
 
 .quick-nav a{
@@ -627,9 +635,14 @@ main{
   font-weight: 200;
   color: #111;
   font-size:21pt;
-  margin: 5px 30px;
+  margin: 5px 0px;
   transition:250ms ease-out;
   text-decoration:none !important;
+}
+
+.quick-nav span{
+  color:#999;
+  margin:0px 8px;
 }
 
 .quick-nav .row:hover >*:hover{
@@ -654,6 +667,11 @@ main{
 
 .proj-desc .col-12{
   margin-bottom:20px;
+}
+
+.proj-desc .col-12 h6{
+  text-transform: uppercase;
+  color: #999;
 }
 
 .proj-desc .col{
@@ -961,6 +979,10 @@ ul{
   transition: 300ms ease-out;
 }
 
+.chapter-anchor{
+  transform:translateY(180px);
+}
+
 #wwVid {
   margin-top:30px;
   max-width:750px;
@@ -1099,7 +1121,7 @@ footer p{
 div.anchor{
   display: block;
     position: relative;
-    top: -250px;
+    top: 50px;
     visibility: hidden;
 }
 
