@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&display=swap');
 
 @font-face {
   font-family: 'PingFang';
@@ -1088,6 +1088,31 @@ ul{
     display: block;
     margin-top:2em;
     margin-bottom:2em;
+}
+
+.interactive-prototype{
+  margin:0px 82px;
+  margin-top:120px;
+}
+
+.interactive-prototype h3{
+  font-weight:600;
+}
+
+.interactive-prototype iframe{
+  border: none;
+}
+
+.miro-link{
+  margin-left:82px;
+  font-size:1.8rem;
+}
+
+@media(max-width:768px) {
+  .miro-link{
+    margin-left:24px;
+  font-size:1rem;
+  }
 }
 
 /*ARROW TOP*/
