@@ -231,7 +231,7 @@ main{
 }
 
 .tooltip-title{
-  font-size: 21pt;
+  font-size: 18pt;
   font-weight: 600;
 }
 .sub-tip{
@@ -244,6 +244,10 @@ main{
   font-size:32pt;
   font-weight: 400;
   animation: revealTr 500ms 900ms ease-out forwards;
+}
+
+.landing .main-title #zh{
+  width: 1060px;
 }
 
 @media (max-width:960px){
