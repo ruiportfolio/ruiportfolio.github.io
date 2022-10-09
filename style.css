@@ -32,7 +32,7 @@ body{
 }
 
 h1{
-  font-weight: 700;
+  font-weight: 600;
 }
 
 main{
@@ -159,7 +159,7 @@ main{
   opacity:0;
   max-width:600px;
   font-size:64pt;
-  font-weight: 700;
+  font-weight: 600;
   animation: revealTr 500ms 300ms ease-out forwards;
 }
 
@@ -228,7 +228,7 @@ main{
 
 .tooltip-title{
   font-size: 21pt;
-  font-weight: 700;
+  font-weight: 600;
 }
 .sub-tip{
   font-size: 14pt;
@@ -305,10 +305,11 @@ main{
   transition: 300ms ease-out;
 }
 
-.pr-hover-title p{
-  font-size:21pt;
+.pr-hover-title sd{
+  font-size:26pt;
   margin-bottom:0.2em;
   font-weight:600;
+  display:block;
 }
 
 .pr-hover-title st{
@@ -512,7 +513,7 @@ main{
 
 .contact-wrap .message{
   font-size:21pt;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .contact-wrap a{
@@ -610,14 +611,14 @@ main{
 }
 
 .proj-title{
-  margin:180px auto;
+  margin:90px auto;
   margin-bottom:30px;
 }
 
 .quick-nav{
   max-width: 750px;
   margin: 0 auto;
-  margin-top:80px;
+  margin-top:120px;
 }
 
 .quick-nav .row{
@@ -631,12 +632,12 @@ main{
 }
 
 .quick-nav a{
-  box-shadow: 0px 1.5px 0px #111;
+  box-shadow: 0px 1.5px 0px #272727;
   text-align:center;
-  font-weight: 200;
-  color: #111;
-  font-size:21pt;
-  margin: 5px 0px;
+  font-weight: 400;
+  color: #272727;
+  font-size:1rem;
+  margin: 5px 8px;
   transition:250ms ease-out;
   text-decoration:none !important;
 }
@@ -647,8 +648,8 @@ main{
 }
 
 .quick-nav .row:hover >*:hover{
-  box-shadow: 0px 3px 0px #111;
-  color: #111;
+  box-shadow: 0px 3px 0px #272727;
+  color: #272727;
   text-decoration: none;
   transition:250ms ease-out;
 }
@@ -705,7 +706,7 @@ main{
 
 .proj-main .row h1{
   font-size: 36pt;
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .proj-main .row img{
@@ -1178,4 +1179,8 @@ div.anchor{
 @keyframes revealOp{
   0%{opacity:0;}
   100%{opacity:1;}
+}
+
+p, h1, h3, h5, span {
+  color:#272727 !important;
 }
