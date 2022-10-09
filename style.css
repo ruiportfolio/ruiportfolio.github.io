@@ -35,6 +35,10 @@ h1{
   font-weight: 600;
 }
 
+h6{
+  color: #999;
+}
+
 main{
   opacity:0;
   animation: revealOp 500ms 200ms ease-out forwards;
@@ -637,7 +641,8 @@ main{
   font-weight: 400;
   color: #272727;
   font-size:1rem;
-  margin: 5px 8px;
+  margin: 5px 16px;
+  margin-left:0;
   transition:250ms ease-out;
   text-decoration:none !important;
 }
@@ -705,8 +710,9 @@ main{
 }
 
 .proj-main .row h1{
-  font-size: 36pt;
+  font-size: 28pt;
   font-weight: 600;
+  margin: 0 80px;
 }
 
 .proj-main .row img{
@@ -983,6 +989,10 @@ ul{
 
 .chapter-anchor{
   transform:translateY(180px);
+}
+
+#chapter3, #chapter4{
+  transform:translateY(-180px);
 }
 
 #wwVid {
