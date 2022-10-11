@@ -345,6 +345,14 @@ main{
   transition: 200ms ease-out;
 }
 
+@media(max-width:768px) {
+  .pr-hover {
+    background-color: none;
+  }
+}
+
+
+
 .more span{
   font-size:18pt;
 }
@@ -496,6 +504,12 @@ main{
 
 .resume p{
   font-size:14pt;
+}
+
+.interactive-intro{
+  display:flex;
+  flex-direction: column;
+  width:100%;
 }
 
 .cv-btn{
@@ -1106,7 +1120,9 @@ ul{
 }
 
 .interactive-prototype{
-  margin:0px 82px;
+  display: flex;
+  flex-direction: column;
+  width:100%;
   margin-top:120px;
 }
 
