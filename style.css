@@ -591,6 +591,16 @@ main{
   margin-top:76px;
 }
 
+.black-bg{
+  position:absolute;
+  z-index:-999;
+  left:-50%;
+  width:150%;
+  height:100%;
+  margin: 0 auto;
+  background-color:black;
+}
+
 .btn{
   background-color:#111;
   border:none;
