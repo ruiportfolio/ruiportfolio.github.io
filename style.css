@@ -251,6 +251,10 @@ main{
 }
 
 @media (max-width:960px){
+  .landing .main-title #zh{
+    width: auto;
+  }
+
   .landing{
     margin-top:20px;
     height:72vh;
@@ -510,6 +514,7 @@ main{
   display:flex;
   flex-direction: column;
   width:100%;
+  margin-top: 40px;
 }
 
 .cv-btn{
@@ -673,6 +678,11 @@ main{
   margin-left:0;
   transition:250ms ease-out;
   text-decoration:none !important;
+}
+
+.proj2-nav a{
+  margin: 5px 10px;
+  margin-left:0;
 }
 
 .quick-nav span{
@@ -1019,8 +1029,12 @@ ul{
   transform:translateY(180px);
 }
 
-#chapter3, #chapter4{
-  transform:translateY(-180px);
+.proj2-body #chapter3 {
+  transform:translateY(600px);
+}
+
+.proj2-body #chapter4 {
+  transform:translateY(2000px);
 }
 
 #wwVid {
