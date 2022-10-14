@@ -1154,6 +1154,10 @@ ul{
   font-weight:600;
 }
 
+.interactive-prototype h4{
+  font-weight:600;
+}
+
 .interactive-prototype iframe{
   border: none;
 }
