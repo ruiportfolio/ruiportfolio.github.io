@@ -913,11 +913,13 @@ ul{
 }
 
 .proj2-body #chapter3 {
-  transform:translateY(600px);
+  /* transform:translateY(600px); */
+  transform:translateY(-180px);
 }
 
 .proj2-body #chapter4 {
-  transform:translateY(2000px);
+  /* transform:translateY(2000px); */
+  transform:translateY(-180px);
 }
 
 #wwVid {
