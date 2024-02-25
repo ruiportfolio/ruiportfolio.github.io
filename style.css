@@ -536,74 +536,6 @@ main{
   transition: 500ms ease-out;
 }
 
-/*CONTACT*/
-
-.contact{
-  margin-top:120px;
-}
-
-.contact-wrap ul{
-  list-style-type: none;
-  padding:0;
-}
-
-.contact-wrap li{
-  font-size:21pt;
-  margin:30px 0;
-}
-
-.contact-wrap .message{
-  font-size:21pt;
-  font-weight: 600;
-}
-
-.contact-wrap a{
-  text-decoration: underline;
-  text-decoration-color:#111;
-  color:#111;
-  transition:150ms ease-out;
-}
-.contact-wrap a:hover{
-  color:#888;
-  transition:150ms ease-out;
-}
-
-.contact-wrap li i {
-  padding-right:10px;
-}
-
-.contact-wrap li img{
-  width:250px;
-}
-
-.contact-wrap li p{
-  font-size:14pt;
-}
-
-.wechat{
-  margin-top:20px !important;
-}
-
-@media(max-width:768px) {
-  .contact-wrap li{
-    font-size:14pt;
-    margin:30px 0;
-  }
-
-  .contact-wrap .message{
-    font-size:14pt;
-  }
-
-  .wechat{
-    margin-top:80px !important;
-  }
-
-  .contact-wrap li p{
-    font-size:14pt;
-  }
-
-}
-
 /*PROJECT PAGE*/
 
 .cover-img{
@@ -776,34 +708,6 @@ main{
   }
 }
 
-.dev-img{
-  margin-top:80px;
-  margin-bottom:120px;
-}
-
-.dev-img .row, .dev-img p{
-  margin:0 auto;
-  margin-top:80px;
-  max-width:960px;
-}
-
-.res-gate .fa-file-alt{
-  color:#fff;
-  padding-right:3px;
-}
-
-.pr-video{
-  margin-top:70px;
-  margin-bottom:80px;
-}
-
-@media(max-width:600px){
-  .pr-video{
-    max-width:1366px;
-    height:240px;
-  }
-}
-
 .design-goal{
   position:relative;
   width:100%;
@@ -825,27 +729,8 @@ main{
   padding-top:15px;
 }
 
-.proj-dev{
-  margin-bottom:160px;
-}
-
 ul{
   list-style-type: square;
-}
-
-.mag-prob ul li{
-  margin-bottom:50px;
-}
-
-.mag-electr{
-  padding-left:45px;
-}
-
-.mag-pic .col-md-6{
-  padding:0;
-}
-.mag-pic img{
-  margin:0 !important;
 }
 
 .arrow-top{
@@ -913,119 +798,11 @@ ul{
 }
 
 .proj2-body #chapter3 {
-  /* transform:translateY(600px); */
   transform:translateY(-180px);
 }
 
 .proj2-body #chapter4 {
-  /* transform:translateY(2000px); */
   transform:translateY(-180px);
-}
-
-#wwVid {
-  margin-top:30px;
-  max-width:750px;
-  width:100%;
-  height:auto;
-}
-
-.ww-wire li{
-  font-size:14pt !important;
-}
-
-.my-large{
-  margin-top:9em;
-  margin-bottom:9em;
-}
-
-.proj-main li{
-  margin:20px 0;
-  font-size:12pt;
-}
-
-.mag-intro p{
-  font-size: 18pt;
-}
-
-.mag-idea{
-  margin:64px 0;
-  font-size: 36pt;
-}
-
-.mag-idea span{
-  color:#e53a50;
-}
-
-.mag-vid{
-  margin:0 auto;
-  max-width:960px;
-}
-.mag-vid p{
-  margin-top:10px;
-}
-
-.uci-gallery .col{
-  padding: 4px;
-}
-
-.uci-gallery .col img{
-  margin: 0;
-}
-
-.gallery .col{
-  opacity:1;
-  transition:300ms ease-out;
-}
-.gallery .col:hover{
-  opacity:0.85;
-  transition:300ms ease-out;
-}
-
-.soc-max-hover{
-  opacity:1;
-  transition:300ms ease-out;
-}
-.soc-max-hover:hover{
-  opacity:0.85;
-  transition:300ms ease-out;
-}
-
-.uci-problems .col p{
-  font-size: 18pt;
-  max-width:400px;
-  padding-left:20px;
-}
-
-.uci-problems .col img{
-  margin-bottom:20px;
-}
-
-.uci-vid{
-  max-width:960px;
-  margin:0 auto;
-}
-
-.uci-vid ul{
-  margin:45px auto;
-  max-width:768px;
-}
-
-.uci-vid ul li{
-  font-size:14pt;
-}
-
-.spacer160{
-  margin-top:160px !important;
-}
-
-.prototype{
-  padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top:2em;
-    margin-bottom:2em;
 }
 
 .interactive-prototype{
@@ -1087,18 +864,16 @@ footer p{
   padding:40px 0;
 }
 
+.video-row {
+  padding:0 20%;
+}
+
 /*ANCHORS*/
 div.anchor{
   display: block;
     position: relative;
     top: 50px;
     visibility: hidden;
-}
-
-/* SIMPLE LIGHTBOX */
-.slbCaption{
-  color:#fff !important;
-  padding-bottom:1.5em !important;
 }
 
 .opacity0{
